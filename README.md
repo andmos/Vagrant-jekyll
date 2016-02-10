@@ -5,4 +5,4 @@ Simple Vagrant template for running jekyll.
     vagrant ssh
     git clone some-project-with-jekyll 
     cd some-project-with-jekyll
-    jekyll serve
+    jekyll serve --host 0.0.0.0
